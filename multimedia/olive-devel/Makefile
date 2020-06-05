@@ -28,5 +28,7 @@ USE_GL=		gl
 CMAKE_ARGS=	-DGIT_HASH:STRING=NoGitHashVersion${DISTVERSION}
 
 DATADIR=	${PREFIX}/share/olive-editor
+GIT_HASH=	${GH_TAGNAME}
+MAKE_ENV=	GIT_HASH=${GIT_HASH}
 
 .include <bsd.port.mk>
