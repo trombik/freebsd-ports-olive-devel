@@ -21,7 +21,6 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	olive-editor
 GH_PROJECT=	olive
 GH_TAGNAME= 031c07f
-DOS2UNIX_FILES=	olive.pro
 USE_QT=		core gui multimedia network opengl svg widgets buildtools_build linguisttools_build
 USE_GL=		gl
 
