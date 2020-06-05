@@ -1,0 +1,10 @@
+--- CMakeLists.txt.orig	2020-06-05 06:04:30 UTC
++++ CMakeLists.txt
+@@ -54,6 +54,7 @@ find_package(Qt5 5.6 REQUIRED
+   OpenGL
+   Svg
+   LinguistTools
++  Concurrent
+ )
+ 
+ find_package(FFMPEG 3.0 REQUIRED
